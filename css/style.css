@@ -1,0 +1,325 @@
+@font-face {
+    font-family: 'Museo Cyrl 300';
+    src: url('../fonts/museo/exljbris - Museo Cyrl 300.eot');
+    src: local('☺'), url('../fonts/museo/exljbris - Museo Cyrl 300.woff') format('woff'),
+    url('../fonts/museo/exljbris - Museo Cyrl 300.ttf') format('truetype'),
+    url('../fonts/museo/exljbris - Museo Cyrl 300.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Museo Cyrl 500';
+    src: url('../fonts/museo/exljbris - Museo Cyrl 500.eot');
+    src: local('☺'), url('../fonts/museo/exljbris - Museo Cyrl 500.woff') format('woff'),
+    url('../fonts/museo/exljbris - Museo Cyrl 500.ttf') format('truetype'),
+    url('../fonts/museo/exljbris - Museo Cyrl 500.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Museo Cyrl 700';
+    src: url('../fonts/museo/exljbris - Museo Cyrl 700.eot');
+    src: local('☺'), url('../fonts/museo/exljbris - Museo Cyrl 700.woff') format('woff'),
+    url('../fonts/museo/exljbris - Museo Cyrl 700.ttf') format('truetype'),
+    url('../fonts/museo/exljbris - Museo Cyrl 700.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Museo Cyrl 900';
+    src: url('../fonts/museo/exljbris - Museo Cyrl 900.eot');
+    src: local('☺'), url('../fonts/museo/exljbris - Museo Cyrl 900.woff') format('woff'),
+    url('../fonts/museo/exljbris - Museo Cyrl 900.ttf') format('truetype'),
+    url('../fonts/museo/exljbris - Museo Cyrl 900.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    font-family: 'Museo Cyrl 500';
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+header {
+    padding-top: 39px;
+}
+.container {
+    padding: 0;
+}
+.list-header-telephove {
+    text-align: right;
+}
+.list-header-telephove li i {
+    color: #00ad3a;
+    margin-right: 11px;
+    font-size: 22px;
+}
+.list-header-telephove li {
+    color: #2e2e2e;
+    font-size: 20px;
+    margin-top: -5px;
+    font-family: 'Museo Cyrl 500';
+}
+.lint-head-tel {
+    text-decoration: underline;
+    color: #2e2e2e;
+    font-size: 16px;
+    padding-top: 13px;
+    display: block;
+}
+.title-section-all {
+    color: #2e2e2e;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+.section_1 {
+    position: relative;
+}
+.title-section-all:before {
+    content: '';
+    background: url("../img/left-arr-dec.png") no-repeat center;
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    left: 0;
+    top: 0;
+}
+.section-1-list li img {
+    position: absolute;
+    left: 0;
+    top: -8px;
+}
+.section-1-list li {
+    color: #2e2e2e;
+    font-family: 'Museo Cyrl 300';
+    font-size: 20px;
+    padding-left: 51px;
+    margin-bottom: 27px;
+    position: relative;
+}
+.section-1-list {
+    margin-top: 5px;
+    padding-left: 0;
+}
+.content-section-1 {
+    padding-top: 50px;
+}
+.convert-block {
+    background: url("../img/convert.png");
+    height: 442px;
+    position: relative;
+    margin-left: -17px;
+}
+.convert-block:before {
+    position: absolute;
+    content: '';
+    background: url("../img/analytics.png") no-repeat center;
+    width: 98px;
+    height: 88px;
+    top: -31px;
+    right: -45px;
+}
+.title-form-all-style {
+    color: #525252;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Museo Cyrl 500';
+}
+.title-form-position {
+    padding: 43px 0 0 5px;
+}
+.mini-text-form {
+    color: #525252;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    padding-top: 39px;
+    padding-left: 8px;
+}
+.all-input-number {
+    height: 68px;
+    opacity: 0.5;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.35);
+    max-width: 252px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none !important;
+    padding-left: 12px;
+}
+.all-input-submit {
+    width: 253px;
+    height: 68px;
+    background-color: #ff6d3b;
+    border: 3px solid #b03e32;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Museo Cyrl 500';
+    text-align: center;
+    outline: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
