@@ -79,13 +79,14 @@ header {
 }
 .section_1 {
     position: relative;
+    padding-bottom: 118px;
 }
-.title-section-all:before {
+header:before {
     content: '';
     background: url("../img/left-arr-dec.png") no-repeat center;
     position: absolute;
-    width: 100px;
-    height: 200px;
+    width: 357px;
+    height: 554px;
     left: 0;
     top: 0;
 }
@@ -167,14 +168,104 @@ header {
     text-align: center;
     outline: none !important;
 }
-
-
-
-
-
-
-
-
+.input-group-form {
+    padding: 30px 25px 0 30px;
+}
+.text-bottom-position {
+    padding: 33px 42px 0 45px;
+}
+.mini-tytle-style {
+    color: #2e2e2e;
+    font-size: 30px;
+    font-family: 'Museo Cyrl 500';
+    text-align: center;
+}
+.section-2-position-title {
+    padding-bottom: 20px;
+}
+.title-link-sect-2 {
+    color: #2e2e2e;
+    font-size: 18px;
+    text-decoration: underline;
+    font-family: 'Museo Cyrl 500';
+    transition: all .3s;
+    display: block;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.left-list-sect-2-text {
+    font-size: 18px;
+    transition: all .3s;
+    color: #2e2e2e;
+}
+.right-list-sect-2-text {
+    color: #2e2e2e;
+    font-family: 'Museo Cyrl 500';
+    font-size: 18px;
+    transition: all .3s;
+}
+.non-padding-all {
+    padding: 0;
+}
+.decor-list-block {
+    height: 201px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 8px 15px 0 15px;
+    color: #2e2e2e;
+    transition: all .3s;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 6px;
+}
+.decor-list-block:before {
+    content: '';
+    position: absolute;
+    background: url("../img/bef-arr-list.png") no-repeat center;
+    width: 80px;
+    height: 127px;
+    bottom: -127px;
+    right: 8px;
+    transition: all .3s;
+}
+.decor-list-block:hover:before {
+    bottom: 0px;
+}
+.decor-list-block:hover {
+    background-color: #ff6d3b;
+    color: #fff;
+}
+.decor-list-block:hover .title-link-sect-2 {
+    color: #fff;
+}
+.decor-list-block:hover .list-sect-2 li .left-list-sect-2-text,
+.decor-list-block:hover .list-sect-2 li .right-list-sect-2-text{
+    color: #fff;
+}
+.list-sect-2 li {
+    margin-top: 15px;
+    transition: all .3s;
+    line-height: 23px;
+}
+.link-more-block {
+    color: #2b2b2b;
+    font-family: 'Museo Cyrl 500';
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    text-decoration: underline;
+    margin-top: 19px;
+    position: relative;
+    left: 13px;
+    letter-spacing: -0.3px;
+}
+.link-more-block i {
+    margin-left: 10px;
+    position: relative;
+    bottom: -2px;
+}
 
 
 
