@@ -275,14 +275,12 @@ header:before {
     margin-left: auto;
     margin-right: auto;
     background: url("../img/conv-2.png") no-repeat 58% -592px;
+    margin-bottom: 36px;
 }
 .title-form-all {
     color: #2b2b2b;
     font-family: 'Museo Cyrl 500';
     font-size: 36px;
-}
-.section_4 {
-    background: #fffbed;
 }
 .all-form-style {
     margin: 151px auto 0;
@@ -297,29 +295,74 @@ header:before {
     font-weight: 300;
     font-family: 'Open Sans', sans-serif;
     padding-top: 38px;
-    padding-right: 70px;
+    padding-right: 40px;
 }
 .block-top-presentation {
     background: url("../img/presentation.png") no-repeat center;
     height: 138px;
     margin-top: -13px;
-    margin-left: -2px;
-}
-.form-width-block-left {
-    width: 71.8%;
-}
-.form-width-block-right {
-    width: 28.2%;
     margin-left: -6px;
 }
-
-
-
-
-
-
-
-
+.form-width-block-left {
+    width: 69.8%;
+}
+.form-width-block-right {
+    width: 30.2%;
+    padding-left: 13px;
+}
+.bottom-block-button .all-input-number,
+.bottom-block-button .all-input-submit {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+.bottom-block-button {
+    padding-top: 48px;
+}
+.section_4 {
+    background: #fffbed;
+}
+.title-all-content {
+    color: #2b2b2b;
+    font-family: 'Museo Cyrl 500';
+    font-size: 30px;
+    text-align: center;
+    padding-top: 102px;
+}
+.block-img-sect-4-1 {
+    background: url("../img/ico-1.png") no-repeat center;
+    height: 99px;
+    margin-bottom: 20px;
+}
+.text-block-sect-4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+.content-group {
+    padding-top: 125px;
+}
+.block-img-sect-4-2 {
+    background: url("../img/big-ico.png") no-repeat center;
+    height: 188px;
+}
+.block-img-sect-4-3 {
+    background: url("../img/ico-4.png") no-repeat center;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.bef-arr-1 {
+    position: relative;
+}
+.bef-arr-1:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right:0;
+    background: url("../img/arr-1.png") no-repeat center;
+    width: 100px;
+    height: 100px;
+}
 
 
 
