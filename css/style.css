@@ -87,8 +87,10 @@ header:before {
     position: absolute;
     width: 357px;
     height: 554px;
-    left: 0;
-    top: 0;
+    left: -1561px;
+    top: 90px;
+    margin: auto;
+    right: 0;
 }
 .section-1-list li img {
     position: absolute;
@@ -213,7 +215,7 @@ header:before {
     height: 201px;
     border-radius: 10px;
     background-color: #fff;
-    padding: 8px 15px 0 15px;
+    padding: 8px 15px 0 30px;
     color: #2e2e2e;
     transition: all .3s;
     overflow: hidden;
@@ -265,6 +267,14 @@ header:before {
     margin-left: 10px;
     position: relative;
     bottom: -2px;
+}
+.section_3 {
+    height: 400px;
+    height: 905px;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../img/conv-2.png") no-repeat center;
 }
 
 
