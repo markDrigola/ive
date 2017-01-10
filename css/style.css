@@ -274,9 +274,44 @@ header:before {
     max-width: 1920px;
     margin-left: auto;
     margin-right: auto;
-    background: url("../img/conv-2.png") no-repeat center;
+    background: url("../img/conv-2.png") no-repeat 58% -592px;
 }
-
+.title-form-all {
+    color: #2b2b2b;
+    font-family: 'Museo Cyrl 500';
+    font-size: 36px;
+}
+.section_4 {
+    background: #fffbed;
+}
+.all-form-style {
+    margin: 151px auto 0;
+    max-width: 1034px;
+    width: 100%;
+    padding: 72px 62px 0 32px;
+}
+.all-text-form-style {
+    color: #2b2b2b;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 38px;
+    padding-right: 70px;
+}
+.block-top-presentation {
+    background: url("../img/presentation.png") no-repeat center;
+    height: 138px;
+    margin-top: -13px;
+    margin-left: -2px;
+}
+.form-width-block-left {
+    width: 71.8%;
+}
+.form-width-block-right {
+    width: 28.2%;
+    margin-left: -6px;
+}
 
 
 
