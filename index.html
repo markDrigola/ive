@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jquery.fullPage.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
@@ -20,36 +21,37 @@
     <![endif]-->
 </head>
 <body>
-<header>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="ive-logo-block">
-                    <a href="/">
-                        <img src="img/logo.png" alt="">
-                    </a>
+<main id="fullpage">
+    <div class="section">
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="ive-logo-block">
+                        <a href="/">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm-4 col-sm-offset-4">
-                <div class="header-telephone-block">
-                    <ul class="list-header-telephove">
-                        <li>
-                            <i class="fa fa-phone" aria-hidden="true"></i>8 (812) 209 00 23
-                        </li>
-                        <li>
-                            <i class="fa fa-phone" aria-hidden="true"></i>8 (499) 685 40 23
-                        </li>
-                        <li>
-                            <a href="#" class="lint-head-tel"  data-toggle="modal" data-target="#myModal2">Обратный звонок</a>
-                        </li>
-                    </ul>
+                <div class="col-sm-4 col-sm-offset-4">
+                    <div class="header-telephone-block">
+                        <ul class="list-header-telephove">
+                            <li>
+                                <i class="fa fa-phone" aria-hidden="true"></i>8 (812) 209 00 23
+                            </li>
+                            <li>
+                                <i class="fa fa-phone" aria-hidden="true"></i>8 (499) 685 40 23
+                            </li>
+                            <li>
+                                <a href="#" class="lint-head-tel"  data-toggle="modal" data-target="#myModal2">Обратный звонок</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</header>
-<main>
-    <section class="section_1">
+    </header>
+    <section class="section_1  clearfix">
         <div class="container">
             <div class="row">
                 <h1 class="title-section-all">Яндекс Директ / Google Adwords</br>
@@ -120,6 +122,7 @@
             </div>
         </div>
     </section>
+    </div>
     <section class="section_2">
         <div class="container">
             <div class="row">
@@ -625,10 +628,6 @@
         </div>
     </div>
 </div>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">
-    Launch demo modal
-</button>
 
 <!-- Modal -->
 <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -658,10 +657,14 @@
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery-2.2.3.min.js"></script>
 <script src="js/maskTel.js"></script>
+<script src="js/jquery.easings.min.js"></script>
+<script src="js/scrolloverflow.min.js"></script>
+<script src="js/jquery.fullPage.min.js"></script>
 <script src="js/common.js"></script>
 </body>
 </html>

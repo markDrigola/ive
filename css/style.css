@@ -56,8 +56,11 @@ ul {
     list-style-type: none;
     padding: 0;
 }
+body {
+    zoom: 0.75;
+}
 header {
-    padding-top: 39px;
+    padding-top: 19px;
 }
 .container {
     /*padding: 0;*/
@@ -86,14 +89,15 @@ header {
 }
 .title-section-all {
     color: #2e2e2e;
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 40px;
+    line-height: 40px;
     text-align: center;
-    padding: 10px 0 0 0;
+    padding: 0px 0 0 0;
 }
 .section_1 {
     position: relative;
     padding-bottom: 48px;
+    /*height: calc(100vh - 125px);*/
 }
 header:before {
     content: '';

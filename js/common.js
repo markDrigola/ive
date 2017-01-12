@@ -5,6 +5,13 @@
         $('.modal-class').on('click', function () {
             var imgSrc = $(this).children('img').attr('src');
             $('#myModal').find('img').attr('src',imgSrc );
-        })
+        });
+        $('#fullpage').fullpage({
+            anchors: ['firstPage'],
+            autoScrolling: false,
+            verticalCentered: true,
+            css3: true,
+            fitToSection: false
+        });
     });
 })();
