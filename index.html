@@ -9,7 +9,10 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jquery.fullPage.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -20,42 +23,45 @@
     <![endif]-->
 </head>
 <body>
-<header>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="ive-logo-block">
-                    <a href="/">
-                        <img src="img/logo.png" alt="">
-                    </a>
+
+
+<main id="fullpage">
+    <div class="section">
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="ive-logo-block">
+                        <a href="/">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm-4 col-sm-offset-4">
-                <div class="header-telephone-block">
-                    <ul class="list-header-telephove">
-                        <li>
-                            <i class="fa fa-phone" aria-hidden="true"></i>8 (812) 209 00 23
-                        </li>
-                        <li>
-                            <i class="fa fa-phone" aria-hidden="true"></i>8 (499) 685 40 23
-                        </li>
-                        <li>
-                            <a href="#" class="lint-head-tel">Обратный звонок</a>
-                        </li>
-                    </ul>
+                <div class="col-sm-4 col-sm-offset-4">
+                    <div class="header-telephone-block">
+                        <ul class="list-header-telephove">
+                            <li>
+                                <i class="fa fa-phone" aria-hidden="true"></i>8 (812) 209 00 23
+                            </li>
+                            <li>
+                                <i class="fa fa-phone" aria-hidden="true"></i>8 (499) 685 40 23
+                            </li>
+                            <li>
+                                <a href="#" class="lint-head-tel"  data-toggle="modal" data-target="#myModal2">Обратный звонок</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</header>
-<main>
-    <section class="section_1">
+    </header>
+    <section class="section_1  clearfix">
         <div class="container">
             <div class="row">
                 <h1 class="title-section-all">Яндекс Директ / Google Adwords</br>
                     с доведением до продаж за 1 месяц</h1>
                 <div class="content-section-1">
-                    <div class="col-sm-5">
+                    <div class="col-sm-12 col-md-5">
                         <ul class="section-1-list">
                             <li>
                                 <img src="img/checked-1.png" alt="">
@@ -92,8 +98,8 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-sm-7 convert-block">
-                        <form action="">
+                    <div class="col-sm-12 col-md-7 all-form-style-dop-conv convert-block">
+                        <form action="" class="all-form-style-dop">
                             <h2 class="title-form-all-style title-form-position">
                                 Получите коммерческое предложение</br>
                                 для Вашего бизнеса!
@@ -104,7 +110,7 @@
                             </p>
                             <div class="input-group-form clearfix">
                                 <div class="col-sm-6 left-input-block">
-                                    <input type="text" class="all-input-number input-number-position" placeholder="+78 (011) 222-33-44">
+                                    <input type="text" class="all-input-number input-number-position" placeholder="+7 011 222-33-44">
                                 </div>
                                 <div class="col-sm-6 tight-input-block">
                                     <input type="submit" class="all-input-submit input-submit-position" value="Отправить">
@@ -120,13 +126,14 @@
             </div>
         </div>
     </section>
+    </div>
     <section class="section_2">
-        <div class="container">
+        <div class="container content-scale-marg">
             <div class="row">
                 <h2 class="mini-tytle-style section-2-position-title">Посмотрите несколько примеров результатов,<br>
                     которых мы добились</h2>
                 <div class="section-2-all-content clearfix">
-                    <div class="col-sm-3 decor-list-block">
+                    <div class="col-sm-4 col-md-3 col-xs-12 decor-list-block"  data-toggle="modal" data-target="#myModal3">
                         <a href="#" class="title-link-sect-2 lint-head-tel">Установка 1С Бухгалтерия</a>
                         <ul class="list-sect-2">
                             <li class="clearfix">
@@ -143,7 +150,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-sm-3 decor-list-block">
+                    <div class="col-sm-4 col-md-3 col-xs-12  decor-list-block">
                         <a href="#" class="title-link-sect-2 lint-head-tel">Частный грузоперевозчик</a>
                         <ul class="list-sect-2">
                             <li class="clearfix">
@@ -160,7 +167,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-sm-3 decor-list-block">
+                    <div class="col-sm-4 col-md-3  col-xs-12 decor-list-block">
                         <a href="#" class="title-link-sect-2 lint-head-tel">Бухгалтерские услуги СПб</a>
                         <ul class="list-sect-2">
                             <li class="clearfix">
@@ -177,7 +184,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-sm-3 decor-list-block">
+                    <div class="col-sm-4 col-md-3  col-xs-12 decor-list-block">
                         <a href="#" class="title-link-sect-2 lint-head-tel">Мазазин спортивной техники</a>
                         <ul class="list-sect-2">
                             <li class="clearfix">
@@ -194,7 +201,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-sm-3 decor-list-block">
+                    <div class="col-sm-4 col-md-3  col-xs-12 decor-list-block">
                         <a href="#" class="title-link-sect-2 lint-head-tel">Установка 1С Бухгалтерия</a>
                         <ul class="list-sect-2">
                             <li class="clearfix">
@@ -211,7 +218,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-sm-3 decor-list-block">
+                    <div class="col-sm-4 col-md-3  col-xs-12 decor-list-block">
                         <a href="#" class="title-link-sect-2 lint-head-tel">Частный грузоперевозчик</a>
                         <ul class="list-sect-2">
                             <li class="clearfix">
@@ -228,7 +235,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-sm-3 decor-list-block">
+                    <div class="col-sm-4 col-md-3  col-xs-12 decor-list-block">
                         <a href="#" class="title-link-sect-2 lint-head-tel">Бухгалтерские услуги СПб</a>
                         <ul class="list-sect-2">
                             <li class="clearfix">
@@ -245,7 +252,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-sm-3 decor-list-block">
+                    <div class="col-sm-4 col-md-3  col-xs-12 decor-list-block">
                         <a href="#" class="title-link-sect-2 lint-head-tel">Мазазин спортивной техники</a>
                         <ul class="list-sect-2">
                             <li class="clearfix">
@@ -262,7 +269,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-sm-3 decor-list-block">
+                    <div class="col-sm-4 col-md-3  col-xs-12 decor-list-block">
                         <a href="#" class="title-link-sect-2 lint-head-tel">Установка 1С Бухгалтерия</a>
                         <ul class="list-sect-2">
                             <li class="clearfix">
@@ -279,7 +286,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-sm-3 decor-list-block">
+                    <div class="col-sm-4 col-md-3  col-xs-12 decor-list-block">
                         <a href="#" class="title-link-sect-2 lint-head-tel">Частный грузоперевозчик</a>
                         <ul class="list-sect-2">
                             <li class="clearfix">
@@ -296,7 +303,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-sm-3 decor-list-block">
+                    <div class="col-sm-4 col-md-3  col-xs-12 decor-list-block">
                         <a href="#" class="title-link-sect-2 lint-head-tel">Бухгалтерские услуги СПб</a>
                         <ul class="list-sect-2">
                             <li class="clearfix">
@@ -313,7 +320,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-sm-3 decor-list-block">
+                    <div class="col-sm-4 col-md-3 col-xs-12 decor-list-block">
                         <a href="#" class="title-link-sect-2 lint-head-tel">Мазазин спортивной техники</a>
                         <ul class="list-sect-2">
                             <li class="clearfix">
@@ -336,7 +343,7 @@
         </div>
     </section>
     <section class="section_3">
-        <div class="container">
+        <div class="container content-scale-marg">
             <div class="row">
                 <div class="all-content-section-3">
                     <div class="block-convert">
@@ -354,7 +361,7 @@
 
                                 </div>
                                 <div class="bottom-block-button">
-                                    <input type="text" class="all-input-number input-number-position" placeholder="+78 (011) 222-33-44">
+                                    <input type="text" class="all-input-number input-number-position" placeholder="+7 011 222-33-44">
                                     <input type="submit" class="all-input-submit input-submit-position" value="Отправить">
                                 </div>
                             </div>
@@ -365,7 +372,7 @@
         </div>
     </section>
     <section class="section_4">
-        <div class="container">
+        <div class="container content-scale-marg">
             <div class="row">
                 <div class="all-content-section-4">
                     <h3 class="title-all-content">Как мы достигаем таких результатов?</h3>
@@ -420,18 +427,29 @@
         </div>
     </section>
     <section class="section_5">
-        <div class="container">
+        <div class="container content-scale-marg">
             <div class="row">
                 <h3 class="title-all-content">Мы следим за каждым шагом</h3>
                 <p class="mini-text-title">Сквозная аналитики - инструмент, который позволяет нам увидеть:</p>
                 <div class="all-content-section-5">
-
+                    <div class="sect-5-orange-block-all-style posit-orange-1">
+                        <p class="orange-block-text">Сколько у вас было заявок по конкретной ключевой фразе или площадке</p>
+                    </div>
+                    <div class="sect-5-orange-block-all-style posit-orange-2">
+                        <p class="orange-block-text">Сколько вам нужно вложить, чтобы получить конкретные цифры прибыли</p>
+                    </div>
+                    <div class="sect-5-orange-block-all-style posit-orange-3">
+                        <p class="orange-block-text">Сколько было продаж по конкретной ключевой фразе или площадке.</p>
+                    </div>
+                    <div class="sect-5-orange-block-all-style posit-orange-4">
+                        <p class="orange-block-text">Какая конверсия у конкретной ключевой фразы</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="section_6">
-        <div class="container">
+        <div class="container content-scale-marg">
             <div class="row">
                 <h3 class="title-all-content">У нас в команде только сертифицированные специалисты<br>
                     (даже менеджеры по продажам)</h3>
@@ -439,28 +457,28 @@
                     т. к. понимает все в деталях
                 </p>
                 <div class="all-content-section-6 clearfix">
-                    <div class="col-sm-3 cart-img-block-all-style">
+                    <div class="col-sm-4 col-md-3 col-xs-12 cart-img-block-all-style modal-class" data-toggle="modal" data-target="#myModal">
                         <img src="img/cart-jan.jpg" alt="">
                     </div>
-                    <div class="col-sm-3 cart-img-block-all-style">
+                    <div class="col-sm-4 col-md-3 col-xs-12 cart-img-block-all-style modal-class" data-toggle="modal" data-target="#myModal">
                         <img src="img/cart-jan.jpg" alt="">
                     </div>
-                    <div class="col-sm-3 cart-img-block-all-style">
+                    <div class="col-sm-4 col-md-3 col-xs-12 cart-img-block-all-style modal-class" data-toggle="modal" data-target="#myModal">
                         <img src="img/cart-jan.jpg" alt="">
                     </div>
-                    <div class="col-sm-3 cart-img-block-all-style">
+                    <div class="col-sm-4 col-md-3 col-xs-12 cart-img-block-all-style modal-class" data-toggle="modal" data-target="#myModal">
                         <img src="img/cart-jan.jpg" alt="">
                     </div>
-                    <div class="col-sm-3 cart-img-block-all-style">
+                    <div class="col-sm-4 col-md-3 col-xs-12 cart-img-block-all-style modal-class" data-toggle="modal" data-target="#myModal">
                         <img src="img/cart-jan.jpg" alt="">
                     </div>
-                    <div class="col-sm-3 cart-img-block-all-style">
+                    <div class="col-sm-4 col-md-3 col-xs-12 cart-img-block-all-style modal-class" data-toggle="modal" data-target="#myModal">
                         <img src="img/cart-jan.jpg" alt="">
                     </div>
-                    <div class="col-sm-3 cart-img-block-all-style">
+                    <div class="col-sm-4 col-md-3 col-xs-12 cart-img-block-all-style modal-class" data-toggle="modal" data-target="#myModal">
                         <img src="img/cart-jan.jpg" alt="">
                     </div>
-                    <div class="col-sm-3 cart-img-block-all-style">
+                    <div class="col-sm-4 col-md-3 col-xs-12 cart-img-block-all-style modal-class" data-toggle="modal" data-target="#myModal">
                         <img src="img/cart-jan.jpg" alt="">
                     </div>
                 </div>
@@ -468,7 +486,7 @@
         </div>
     </section>
     <section class="section_7">
-        <div class="container">
+        <div class="container content-scale-marg">
             <div class="row">
                 <div class="all-content-section-7">
                     <p class="text-section-7">Если кто-то из нашей команды<br>
@@ -480,7 +498,7 @@
         </div>
     </section>
     <section class="section_3 section_8">
-        <div class="container">
+        <div class="container ">
             <div class="row">
                 <div class="all-content-section-3">
                     <div class="block-convert">
@@ -498,7 +516,7 @@
 
                                 </div>
                                 <div class="bottom-block-button">
-                                    <input type="text" class="all-input-number input-number-position" placeholder="+78 (011) 222-33-44">
+                                    <input type="text" class="all-input-number input-number-position" placeholder="+7 011 222-33-44">
                                     <input type="submit" class="all-input-submit input-submit-position" value="Отправить">
                                 </div>
                             </div>
@@ -509,33 +527,33 @@
         </div>
     </section>
     <section class="section_9">
-        <div class="container">
+        <div class="container ">
             <div class="row">
                 <h3 class="title-all-content">Несколько слов наших клиентов о нас<br>
                     и о нашем подходе к работе</h3>
                 <div class="all-content-section-9 clearfix">
-                    <div class="col-sm-3 all-sertif-style">
+                    <div class="col-sm-4 col-md-3 col-xs-12 all-sertif-style modal-class" data-toggle="modal" data-target="#myModal">
                         <img src="img/sertificate.jpg" alt="">
                     </div>
-                    <div class="col-sm-3 all-sertif-style">
+                    <div class="col-sm-4 col-md-3 col-xs-12 all-sertif-style modal-class" data-toggle="modal" data-target="#myModal">
                         <img src="img/sertificate.jpg" alt="">
                     </div>
-                    <div class="col-sm-3 all-sertif-style">
+                    <div class="col-sm-4 col-md-3 col-xs-12 all-sertif-style modal-class" data-toggle="modal" data-target="#myModal">
                         <img src="img/sertificate.jpg" alt="">
                     </div>
-                    <div class="col-sm-3 all-sertif-style">
+                    <div class="col-sm-4 col-md-3 col-xs-12 all-sertif-style modal-class" data-toggle="modal" data-target="#myModal">
                         <img src="img/sertificate.jpg" alt="">
                     </div>
-                    <div class="col-sm-3 all-sertif-style">
+                    <div class="col-sm-4 col-md-3 col-xs-12 all-sertif-style modal-class" data-toggle="modal" data-target="#myModal">
                         <img src="img/sertificate.jpg" alt="">
                     </div>
-                    <div class="col-sm-3 all-sertif-style">
+                    <div class="col-sm-4 col-md-3 col-xs-12 all-sertif-style modal-class" data-toggle="modal" data-target="#myModal">
                         <img src="img/sertificate.jpg" alt="">
                     </div>
-                    <div class="col-sm-3 all-sertif-style">
+                    <div class="col-sm-4 col-md-3 col-xs-12 all-sertif-style modal-class" data-toggle="modal" data-target="#myModal">
                         <img src="img/sertificate.jpg" alt="">
                     </div>
-                    <div class="col-sm-3 all-sertif-style">
+                    <div class="col-sm-4 col-md-3 col-xs-12 all-sertif-style modal-class" data-toggle="modal" data-target="#myModal">
                         <img src="img/sertificate.jpg" alt="">
                     </div>
                 </div>
@@ -544,7 +562,7 @@
         </div>
     </section>
     <section class="section_10">
-        <div class="container">
+        <div class="container content-scale-marg">
             <div class="row">
                 <div class="all-content-section-10">
                     <div class="sect-10-text-all">
@@ -601,15 +619,78 @@
         </div>
     </div>
 </footer>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-content">
+            <div class="modal-body slider-modal">
+                <div>
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Modal -->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <form action="" class="all-form-style clearfix">
+                    <div class="col-sm-12 non-padding-all">
+                        <p class="mini-text-form">
+                            Оставьте свой номер телефона и наш менеджер свяжется с Вами </br>
+                            в течении 10 минут для консультации
+                        </p>
+                    </div>
+                    <div class="col-sm-12 non-padding-all">
+                        <div class="bottom-block-button">
+                            <input type="text" class="all-input-number input-number-position" placeholder="+7 011 222-33-44">
+                            <input type="submit" class="all-input-submit input-submit-position" value="Отправить">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade nocolors in" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
+    <div class="modal-dialog" style="width: 100%;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close">×</button>
+                <h4 class="textable"><p><br></p></h4>
+            </div>
+            <div class="modal-body"><div class="cont"><div class="node node641 widget widget-element"><style>.node641 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(51, 51, 51); border-radius: 0px;"><div class="wrapper2" style="padding: 5px;"><div class="cont"></div></div></div></div><div class="node node642 widget widget-element"><style>.node642 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="background-position: center center; background-repeat: repeat; background-size: cover; color: rgb(255, 255, 255); border-radius: 0px; background-image: url(&quot;//u0.platformalp.ru/s/73j05s9061/d69c2613a8e6c7b3fa72dd62b626f5f4/0df52d3324f7ea0e9e32d85f90b375bb.jpg&quot;);"><div class="wrapper2" style="background-color: rgba(0, 0, 0, 0.870588); padding: 5px;"><div class="cont"><div class="node node643 widget widget-grid"><style>.node643 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px;"><div class="wrapper2" style="padding: 5px;"><div class="grid valign-top paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 62.4352%;"><div class="cont"><div class="node node644 widget widget-element"><style>.node644 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="background-color: rgba(0, 0, 0, 0.247059); color: rgb(255, 255, 255); border-radius: 0px; border-width: 4px; border-style: dotted; border-color: rgb(0, 0, 0);"><div class="wrapper2" style="padding: 5px;"><div class="cont"><div class="node node645 widget widget-grid"><style>.node645 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px;"><div class="wrapper2" style="padding: 5px;"><div class="grid valign-top paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 30.8873%;"><div class="cont"><div class="node node646 widget widget-text"><style>.node646 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px;"><div class="wrapper2" style="padding: 5px;"><div class="xs-force-center textable"><p><br></p></div></div></div></div></div></div><div class="col" style="width: 33.6211%;"><div></div><div class="cont"><div class="node node647 widget widget-text"><style>.node647 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px; border-width: 1px; border-style: dotted; border-color: rgb(122, 119, 119);"><div class="wrapper2" style="padding: 5px;"><div class="xs-force-center textable"><p><strong><span style="color: rgb(238, 29, 36);">До обращения к нам:</span></strong></p></div></div></div></div></div></div><div class="col" style="width: 35.4916%;"><div></div><div class="cont"><div class="node node648 widget widget-text"><style>.node648 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px; border-width: 1px; border-style: dotted; border-color: rgb(122, 119, 119);"><div class="wrapper2" style="padding: 5px;"><div class="xs-force-center textable"><p><strong><span style="color: rgb(55, 180, 74);">После обращения</span> <span style="color: rgb(55, 180, 74);">к нам:</span></strong></p></div></div></div></div></div></div></div></div></div></div></div><div class="node node649 widget widget-grid"><style>.node649 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px;"><div class="wrapper2" style="padding: 5px;"><div class="grid valign-top paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 30.8873%;"><div class="cont"><div class="node node650 widget widget-text"><style>.node650 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px; border-width: 1px; border-style: dotted; border-color: rgb(122, 119, 119);"><div class="wrapper2" style="padding: 5px;"><div class="xs-force-center textable"><p><strong><span style="font-family: &quot;Open Sans&quot;, sans-serif;">CTR:</span></strong></p></div></div></div></div></div></div><div class="col" style="width: 33.6211%;"><div></div><div class="cont"><div class="node node651 widget widget-text"><style>.node651 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px; border-width: 1px; border-style: dotted; border-color: rgb(122, 119, 119);"><div class="wrapper2" style="padding: 5px;"><div class="xs-force-center textable"><p style="text-align: center;"><span style="color: rgb(238, 29, 36);">7%</span></p></div></div></div></div></div></div><div class="col" style="width: 35.4916%;"><div></div><div class="cont"><div class="node node652 widget widget-text"><style>.node652 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px; border-width: 1px; border-style: dotted; border-color: rgb(122, 119, 119);"><div class="wrapper2" style="padding: 5px;"><div class="xs-force-center textable"><p style="text-align: center;"><span style="color: rgb(55, 180, 74);">15,6%</span></p></div></div></div></div></div></div></div></div></div></div></div><div class="node node653 widget widget-grid"><style>.node653 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px;"><div class="wrapper2" style="padding: 5px;"><div class="grid valign-top paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 30.8873%;"><div class="cont"><div class="node node654 widget widget-text"><style>.node654 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px; border-width: 1px; border-style: dotted; border-color: rgb(122, 119, 119);"><div class="wrapper2" style="padding: 5px;"><div class="xs-force-center textable"><p><span style="font-family: &quot;Open Sans&quot;, sans-serif;"><strong>Конверсия:</strong></span></p></div></div></div></div></div></div><div class="col" style="width: 33.6211%;"><div></div><div class="cont"><div class="node node655 widget widget-text"><style>.node655 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px; border-width: 1px; border-style: dotted; border-color: rgb(122, 119, 119);"><div class="wrapper2" style="padding: 5px;"><div class="xs-force-center textable"><p style="text-align: center;"><span style="color: rgb(238, 29, 36);">12%</span></p></div></div></div></div></div></div><div class="col" style="width: 35.4916%;"><div></div><div class="cont"><div class="node node656 widget widget-text"><style>.node656 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px; border-width: 1px; border-style: dotted; border-color: rgb(122, 119, 119);"><div class="wrapper2" style="padding: 5px;"><div class="xs-force-center textable"><p style="text-align: center;"><span style="color: rgb(55, 180, 74);">25,5%</span></p></div></div></div></div></div></div></div></div></div></div></div><div class="node node657 widget widget-grid"><style>.node657 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px;"><div class="wrapper2" style="padding: 5px;"><div class="grid valign-top paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 30.8873%;"><div class="cont"><div class="node node658 widget widget-text"><style>.node658 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px; border-width: 1px; border-style: dotted; border-color: rgb(122, 119, 119);"><div class="wrapper2" style="padding: 5px;"><div class="xs-force-center textable"><p><span style="font-family: &quot;Open Sans&quot;, sans-serif;"><strong>Цена клика:</strong></span></p></div></div></div></div></div></div><div class="col" style="width: 33.6211%;"><div></div><div class="cont"><div class="node node659 widget widget-text"><style>.node659 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px; border-width: 1px; border-style: dotted; border-color: rgb(122, 119, 119);"><div class="wrapper2" style="padding: 5px;"><div class="xs-force-center textable"><p style="text-align: center;"><span style="color: rgb(238, 29, 36);">28</span></p></div></div></div></div></div></div><div class="col" style="width: 35.4916%;"><div></div><div class="cont"><div class="node node660 widget widget-text"><style>.node660 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px; border-width: 1px; border-style: dotted; border-color: rgb(122, 119, 119);"><div class="wrapper2" style="padding: 5px;"><div class="xs-force-center textable"><p style="text-align: center;"><span style="color: rgb(55, 180, 74);">10</span></p></div></div></div></div></div></div></div></div></div></div></div><div class="node node661 widget widget-grid"><style>.node661 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px;"><div class="wrapper2" style="padding: 5px;"><div class="grid valign-top paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 30.8873%;"><div class="cont"><div class="node node662 widget widget-text"><style>.node662 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px; border-width: 1px; border-style: dotted; border-color: rgb(122, 119, 119);"><div class="wrapper2" style="padding: 5px;"><div class="xs-force-center textable"><p><span style="font-family: &quot;Open Sans&quot;, sans-serif;"><strong>Цена заявки:</strong></span></p></div></div></div></div></div></div><div class="col" style="width: 33.6211%;"><div></div><div class="cont"><div class="node node663 widget widget-text"><style>.node663 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px; border-width: 1px; border-style: dotted; border-color: rgb(122, 119, 119);"><div class="wrapper2" style="padding: 5px;"><div class="xs-force-center textable"><p style="text-align: center;"><span style="color: rgb(238, 29, 36);">571</span></p></div></div></div></div></div></div><div class="col" style="width: 35.4916%;"><div></div><div class="cont"><div class="node node664 widget widget-text"><style>.node664 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px; border-width: 1px; border-style: dotted; border-color: rgb(122, 119, 119);"><div class="wrapper2" style="padding: 5px;"><div class="xs-force-center textable"><p style="text-align: center;"><span style="color: rgb(55, 180, 74);">64,8</span></p></div></div></div></div></div></div></div></div></div></div></div><div class="node node665 widget widget-grid"><style>.node665 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px;"><div class="wrapper2" style="padding: 5px;"><div class="grid valign-top paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 30.8873%;"><div class="cont"><div class="node node666 widget widget-text"><style>.node666 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px; border-width: 1px; border-style: dotted; border-color: rgb(122, 119, 119);"><div class="wrapper2" style="padding: 5px;"><div class="xs-force-center textable"><p><strong><span style="font-family: &quot;Open Sans&quot;, sans-serif;">Кол-во заявок:</span></strong></p></div></div></div></div></div></div><div class="col" style="width: 33.6211%;"><div></div><div class="cont"><div class="node node667 widget widget-text"><style>.node667 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px; border-width: 1px; border-style: dotted; border-color: rgb(122, 119, 119);"><div class="wrapper2" style="padding: 5px;"><div class="xs-force-center textable"><p style="text-align: center;"><span style="color: rgb(238, 29, 36);">61</span></p></div></div></div></div></div></div><div class="col" style="width: 35.4916%;"><div></div><div class="cont"><div class="node node668 widget widget-text"><style>.node668 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px; border-width: 1px; border-style: dotted; border-color: rgb(122, 119, 119);"><div class="wrapper2" style="padding: 5px;"><div class="xs-force-center textable"><p style="text-align: center;"><span style="color: rgb(55, 180, 74);">318</span></p></div></div></div></div></div></div></div></div></div></div></div><div class="node node669 widget widget-grid"><style>.node669 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px;"><div class="wrapper2" style="padding: 5px;"><div class="grid valign-top paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 30.8873%;"><div class="cont"><div class="node node670 widget widget-text"><style>.node670 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px; border-width: 1px; border-style: dotted; border-color: rgb(122, 119, 119);"><div class="wrapper2" style="padding: 5px;"><div class="xs-force-center textable"><p><span style="font-family: &quot;Open Sans&quot;, sans-serif;"><strong>Прибыль:</strong></span></p></div></div></div></div></div></div><div class="col" style="width: 33.6211%;"><div></div><div class="cont"><div class="node node671 widget widget-text"><style>.node671 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px; border-width: 1px; border-style: dotted; border-color: rgb(122, 119, 119);"><div class="wrapper2" style="padding: 5px;"><div class="xs-force-center textable"><p style="text-align: center;"><span style="color: rgb(238, 29, 36);">91 500</span></p></div></div></div></div></div></div><div class="col" style="width: 35.4916%;"><div></div><div class="cont"><div class="node node672 widget widget-text"><style>.node672 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px; border-width: 1px; border-style: dotted; border-color: rgb(122, 119, 119);"><div class="wrapper2" style="padding: 5px;"><div class="xs-force-center textable"><p style="text-align: center;"><span style="color: rgb(55, 180, 74);">477 000</span></p></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><div class="col" style="width: 37.5648%;"><div></div><div class="cont"><div class="node node673 widget widget-text"><style>.node673 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px;"><div class="wrapper2" style="padding: 5px;"><div class="xs-force-center textable"><p><span style="font-size: 168px;"><strong><span style="font-family: &quot;Open Sans&quot;, sans-serif;">I.V.<span style="color: rgb(238, 29, 36);">E.</span></span></strong></span></p></div></div></div></div><div class="node node674 widget widget-button"><style>.node674 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(255, 255, 255); border-radius: 0px;"><div class="wrapper2" style="padding: 0px;"><div class="macros-button"><div class="btn-out center xs-none"><style>#uid61 { background-color: rgb(209, 75, 66);border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;border-style: solid;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(177, 51, 43);padding-top: 8px;padding-bottom: 8px;padding-left: 16px;padding-right: 16px;font-size: 18px;font-weight: bold;color: rgb(255, 255, 255);font-family: Open Sans;box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25); } #uid61:hover, #uid61.hover { background-color: rgb(214, 93, 85);border-color: rgb(177, 51, 43);color: rgb(255, 255, 255); } #uid61:active, #uid61.active { background-color: rgb(218, 109, 102);border-color: rgb(177, 51, 43);color: rgb(255, 255, 255);box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.25); } #uid61:before { } #uid61:active:before, #uid61.active:before { background-color: rgb(218, 109, 102);box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.25); } #uid61 .fa { font-size: 23px;margin-right: 9px; } </style><a class="btn-inner" href="http://iv-media.ru/images/portfolioD/7db.png" target="_blank"><button class="btn" id="uid61" data-id="" data-action="link" data-ym_goal="" data-ga_category="" data-ga_action=""><span class="text icon"><i class="fa fa-search-plus"></i><span>ПРИБЛИЗИТЬ СКРИНШОТ</span></span></button></a></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><div class="node node675 widget widget-text"><style>.node675 a { color: rgb(230, 25, 25); }</style><div class="wrapper1" style="color: rgb(51, 51, 51); border-radius: 0px;"><div class="wrapper2" ><div class="xs-force-center textable"><p><img width="100%" src="http://iv-media.ru/images/portfolioD/7dm.png" alt="" width="1200" height="251"></p></div></div></div></div></div></div>
+            </div>
+        </div>
+    </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery-2.2.3.min.js"></script>
 <script src="js/maskTel.js"></script>
+<script src="js/jquery.easings.min.js"></script>
+<script src="js/scrolloverflow.min.js"></script>
+<script src="js/jquery.fullPage.min.js"></script>
+<script src="js/slick.min.js"></script>
 <script src="js/common.js"></script>
 </body>
 </html>
