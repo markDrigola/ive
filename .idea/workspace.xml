@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19643286-5398-48d8-a444-3f84448fcd35" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pinok.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="ive.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -230,12 +227,12 @@
       <workItem from="1483971826406" duration="5195000" />
       <workItem from="1483982176125" duration="5571000" />
       <workItem from="1484033405934" duration="9876000" />
-      <workItem from="1484052969895" duration="14951000" />
+      <workItem from="1484052969895" duration="15099000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35593000" />
+    <option name="totallyTimeSpent" value="35741000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
