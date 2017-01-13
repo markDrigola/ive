@@ -1280,7 +1280,8 @@ footer .container {
     }
     .all-form-style:before {
         content: '';
-        background: url(../img/conv-mob.png) no-repeat center;
+        /*background: url(../img/conv-mob.png) no-repeat center;*/
+        background: url(../img/conv-6.png) no-repeat center;
         position: absolute;
         top: 0;
         left: 0;
@@ -1296,7 +1297,8 @@ footer .container {
     }
     .all-form-style-dop:before {
         content: '';
-        background: url(../img/conv-mob.png) no-repeat center;
+        /*background: url(../img/conv-mob.png) no-repeat center;*/
+        background: url(../img/conv-6.png) no-repeat center;
         position: absolute;
         top: 0;
         left: 0;
@@ -1524,7 +1526,8 @@ footer .container {
         padding: 33px 0px 0 0px;
     }
     .mini-text-form {
-        padding-left: 0;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .mini-text-form br {
         display: none;
