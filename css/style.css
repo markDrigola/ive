@@ -932,7 +932,113 @@ footer .container {
     width: 100%;
     position: relative;
 }
-@media (max-width: 1619px) {
+@media (max-width: 10000px) and (min-width: 1681px) {
+    .container {
+        width: 1400px;
+    }
+    .all-form-style-dop {
+        max-width: 721px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header:before {
+        left: -1680px;
+    }
+    .convert-block:before {
+        right: 25px;
+    }
+    .all-form-style {
+        padding: 92px 46px 57px 42px;
+    }
+    .all-content-section-5 {
+        background: url(../img/sect-5-scrin.png) no-repeat center;
+        height: 632px;
+        background-size: 100%;
+    }
+    .posit-orange-1 {
+        top: 76px;
+        left: 36%;
+    }
+    .posit-orange-4 {
+        top: 266px;
+        left: 30%;
+    }
+    .posit-orange-3 {
+        top: 145px;
+        right: 16.8%;
+    }
+    .posit-orange-2 {
+        top: 33px;
+        right: 3.2%;
+    }
+}
+@media (max-width: 1680px) and (min-width: 1601px) {
+    header:before {
+        left: -1540px;
+    }
+    .container {
+        width: 1290px;
+    }
+    .all-form-style {
+        padding: 92px 46px 57px 42px;
+    }
+    .all-content-section-5 {
+        background: url(../img/sect-5-scrin.png) no-repeat center;
+        height: 600px;
+        background-size: 100%;
+    }
+    .posit-orange-1 {
+        top: 76px;
+        left: 34%;
+    }
+    .posit-orange-4 {
+        top: 249px;
+        left: 29%;
+    }
+    .posit-orange-3 {
+        top: 145px;
+        right: 16%;
+    }
+    .posit-orange-2 {
+        top: 33px;
+        right: 3.2%;
+    }
+}
+@media (max-width: 1600px) and (min-width: 1441px) {
+    header:before {
+        left: -1420px;
+    }
+    .container {
+        width: 1170px;
+    }
+    .all-form-style {
+        padding: 92px 46px 57px 42px;
+    }
+    .all-content-section-5 {
+        background: url(../img/sect-5-scrin.png) no-repeat center;
+        height: 522px;
+        background-size: 100%;
+    }
+    .posit-orange-1 {
+        top: 53px;
+        left: 32%;
+    }
+    .posit-orange-4 {
+        top: 210px;
+        left: 27%;
+    }
+    .posit-orange-3 {
+        top: 125px;
+        right: 15.2%;
+    }
+    .posit-orange-2 {
+        top: 18px;
+        right: 3.5%;
+    }
+}
+
+
+@media (max-width: 1519px) {
     .container {
         /*zoom: 0.75; !* IE *!*/
         -moz-transform: scale(0.75); /* Firefox */
@@ -967,7 +1073,46 @@ footer .container {
         margin-top: -120px;
     }
 }
-
+@media (max-width: 1440px) and (min-width: 1367px) {
+    .container {
+        width: 1270px;
+    }
+    header:before {
+        left: -1210px;
+    }
+    .all-form-style {
+        padding: 92px 46px 57px 42px;
+    }
+    .all-content-section-5 {
+        background: url(../img/sect-5-scrin.png) no-repeat center;
+        height: 522px;
+        background-size: 100%;
+    }
+    .posit-orange-1 {
+        top: 53px;
+        left: 32%;
+    }
+    .posit-orange-4 {
+        top: 210px;
+        left: 27%;
+    }
+    .posit-orange-3 {
+        top: 125px;
+        right: 15.2%;
+    }
+    .posit-orange-2 {
+        top: 18px;
+        right: 3.5%;
+    }
+    .section_5 .container {
+        width: 1170px;
+    }
+}
+@media (max-width: 1366px) and (min-width: 1200px) {
+    header:before {
+        left: -1130px;
+    }
+}
 @media (max-width: 1199px) {
     .all-form-style {
         max-width: 100%;
@@ -1106,7 +1251,7 @@ footer .container {
     header:before {
         width: 197px;
         height: 304px;
-        left: -950px;
+        left: -930px;
         top: 60px;
     }
 }
