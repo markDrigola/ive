@@ -15,13 +15,13 @@
             $('.slider-modal').find('.slick-dots').children('li').eq(1).trigger('click')
         });
 
-        $('#fullpage').fullpage({
-            anchors: ['firstPage'],
-            autoScrolling: false,
-            verticalCentered: true,
-            css3: true,
-            fitToSection: false
-        });
+        // $('#fullpage').fullpage({
+        //     anchors: ['firstPage'],
+        //     autoScrolling: false,
+        //     verticalCentered: true,
+        //     css3: true,
+        //     fitToSection: false
+        // });
 
 
         // $.fn.scale = function(x) {

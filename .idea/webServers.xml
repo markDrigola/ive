@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b819aa19-356c-4b41-8441-d1a4cfb4c70f" name="kvk-dev.pp.ua" url="http://kvk-dev.pp.ua/home/webuser/kvk-dev.pp.ua/vrstk">
+        <fileTransfer host="" port="2244" accessType="SFTP" password="dfcddfccdfc2dfc0dfc1dfc7df9cdf93" username="webuser">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2244" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
